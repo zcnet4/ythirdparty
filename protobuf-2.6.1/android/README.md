@@ -1,0 +1,1 @@
+e:\android-ndk-r10e\ndk-build.cmd NDK_DEBUG=0
