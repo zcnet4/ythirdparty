@@ -7,6 +7,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE=../third_party/android-cmake/android.toolchain.cmak
       -DANDROID_STL="gnustl_shared"                                               \
       -DANDROID_NATIVE_API_LEVEL=19                                               \
       -DCMAKE_BUILD_TYPE=Release                                                  \
-      ..
+      ..    \
+      -DBUILD_SHARED_LIBS=ON
       
 cmake --build .
