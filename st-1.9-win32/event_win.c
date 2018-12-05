@@ -343,3 +343,10 @@ int st_set_eventsys(int eventsys)
     return 0;
 }
 
+int st_get_eventsys(void) {
+  return _st_eventsys->val;
+}
+
+const char *st_get_eventsys_name(void) {
+  return _st_eventsys->name;
+}

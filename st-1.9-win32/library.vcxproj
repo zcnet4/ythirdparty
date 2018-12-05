@@ -30,7 +30,7 @@
     <ProjectGuid>{AAA725FD-2AB1-488D-B927-060275C1DF42}</ProjectGuid>
     <RootNamespace>library</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB Release MD|Win32'" Label="Configuration">

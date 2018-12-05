@@ -78,6 +78,8 @@ APIEXPORT int st_init(void);
 APIEXPORT int st_getfdlimit(void);
 
 APIEXPORT int st_set_eventsys(int eventsys);
+APIEXPORT int st_get_eventsys(void);
+APIEXPORT const char *st_get_eventsys_name(void);
 
 APIEXPORT st_thread_t st_thread_self(void);
 APIEXPORT void st_thread_exit(void *retval);
